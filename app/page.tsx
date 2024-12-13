@@ -1,101 +1,107 @@
-import Image from "next/image";
+'use client'
 
-export default function Home() {
+import Link from 'next/link'
+import { useTheme } from 'next-themes'
+import { Moon, Sun, Linkedin, Twitter } from 'lucide-react'
+import { Button } from "@/components/ui/button"
+
+export default function HomePage() {
+  const { theme, setTheme } = useTheme()
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <div className="bg-blue-500 dark:bg-blue-600 text-white p-4 text-center">
+        <a 
+          href="https://youtu.be/E_rNotqs--I?si=7PpkaAHfudbDIDpH"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline inline-flex items-center justify-center gap-2 text-lg font-medium"
+        >
+          Check out my recent discussion on Lenny&apos;s Podcast! 
+          <span className="text-blue-100">→</span>
+        </a>
+      </div>
+      
+      <div className="min-h-screen bg-background text-foreground flex flex-col justify-between p-8">
+        <main className="max-w-2xl mx-auto w-full">
+          <h1 className="text-6xl font-bold mb-8">aman khan</h1>
+          <nav>
+            <ul className="space-y-2 text-xl">
+              <li>
+                <Link href="/products" className="hover:underline">Products I&apos;ve worked on</Link>
+              </li>
+              <li>
+                <Link 
+                  href="https://aiproductplaybook.com" 
+                  className="hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Blog Posts
+                </Link>
+              </li>
+              <li>
+                <Link 
+                  href="https://knowing-headlight-107.notion.site/Vector-Ventures-Fund-I-13d3f06734608031bb26d3cceea37dee?pvs=4" 
+                  className="hover:underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Companies I&apos;ve invested in
+                </Link>
+              </li>
+            </ul>
+          </nav>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+          <section className="mt-12">
+            <h2 className="text-4xl font-bold mb-4">Contact</h2>
+            <ul className="space-y-2 text-xl">
+              <li>
+                <a 
+                  href="https://www.linkedin.com/in/amanberkeley" 
+                  className="hover:underline inline-flex items-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin className="mr-2 h-5 w-5" />
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://twitter.com/_amankhan" 
+                  className="hover:underline inline-flex items-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Twitter className="mr-2 h-5 w-5" />
+                  X
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="mailto:myfirstname@vectorventures.xyz" 
+                  className="hover:underline"
+                >
+                  myfirstname@vectorventures.xyz
+                </a>
+              </li>
+            </ul>
+          </section>
+        </main>
+
+        <footer className="fixed bottom-4 left-4">
+          <Button
+            variant="ghost"
+            size="icon"
+            onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+            aria-label="Toggle dark mode"
           >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+            <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+            <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+          </Button>
+        </footer>
+      </div>
+    </>
+  )
 }

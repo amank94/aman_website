@@ -12,12 +12,12 @@ export default function HomePage() {
     <>
       <div className="bg-blue-500 dark:bg-blue-600 text-white p-4 text-center">
         <a 
-          href="https://youtu.be/E_rNotqs--I?si=7PpkaAHfudbDIDpH"
+          href="https://maven.com/aman-khan/thriving-as-an-ai-pm"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:underline inline-flex items-center justify-center gap-2 text-lg font-medium"
         >
-          Check out my recent discussion on Lenny&apos;s Podcast! 
+          Check out my course &quot;Prototype to Production: The AI PM Playbook&quot;
           <span className="text-blue-100">→</span>
         </a>
       </div>
@@ -85,6 +85,122 @@ export default function HomePage() {
                 >
                   myfirstname@vectorventures.xyz
                 </a>
+              </li>
+            </ul>
+          </section>
+
+          <section className="mt-12">
+            <h2 className="text-4xl font-bold mb-4">Speaking</h2>
+            <ul className="space-y-4 text-xl">
+              <li>
+                <div className="space-y-1">
+                  <p className="font-semibold">Lenny&apos;s Newsletter</p>
+                  <a 
+                    href="https://www.youtube.com/watch?v=E_rNotqs--I" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube Interview
+                  </a>
+                  <a 
+                    href="https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Beyond Vibe Checks: A PM&apos;s Complete Guide
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="space-y-1">
+                  <p className="font-semibold">Peter Yang</p>
+                  <a 
+                    href="https://www.youtube.com/watch?v=u8lEDw7pOkE&t=2379s" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube Interview
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="space-y-1">
+                  <p className="font-semibold">Hamel - Evals Course</p>
+                  <a 
+                    href="https://www.youtube.com/watch?v=XueTa4qrMpg" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube Interview
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="space-y-1">
+                  <p className="font-semibold">Deeplearning.ai</p>
+                  <a 
+                    href="https://www.deeplearning.ai/short-courses/evaluating-ai-agents/" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Evaluating AI Agents Course
+                  </a>
+                  <a 
+                    href="https://www.youtube.com/watch?v=GzxdGpFhn04" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube Interview
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="space-y-1">
+                  <p className="font-semibold">Mind The Product</p>
+                  <a 
+                    href="https://www.mindtheproduct.com/how-to-thrive-as-an-ai-product-manager-aman-khan-director-of-product-arize-ai/" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    How to Thrive as an AI Product Manager
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div className="space-y-1">
+                  <p className="font-semibold">Arize & GitHub - AI Product Manager</p>
+                  <a 
+                    href="https://www.youtube.com/watch?v=1raJngrn_Jk" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Navigating the Future of AI Product Management
+                  </a>
+                  <a 
+                    href="https://www.youtube.com/watch?v=Ms1n15uTL8o" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    AI PM Talk - Part 2
+                  </a>
+                  <a 
+                    href="https://www.youtube.com/watch?v=v0eTTn7ZPEc" 
+                    className="hover:underline text-lg block"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    AI PM Talk - Part 3
+                  </a>
+                </div>
               </li>
             </ul>
           </section>

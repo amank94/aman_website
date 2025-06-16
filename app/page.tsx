@@ -80,129 +80,208 @@ export default function HomePage() {
               </li>
               <li>
                 <a 
-                  href="mailto:myfirstname@vectorventures.xyz" 
+                  href="mailto:firstname@aiproductplaybook.com" 
                   className="hover:underline"
                 >
-                  myfirstname@vectorventures.xyz
+                  &lt;firstname&gt;@aiproductplaybook.com
                 </a>
               </li>
             </ul>
           </section>
 
           <section className="mt-12">
-            <h2 className="text-4xl font-bold mb-4">Speaking</h2>
-            <ul className="space-y-4 text-xl">
-              <li>
-                <div className="space-y-1">
-                  <p className="font-semibold">Lenny&apos;s Newsletter</p>
-                  <a 
-                    href="https://www.youtube.com/watch?v=E_rNotqs--I" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    YouTube Interview
-                  </a>
-                  <a 
-                    href="https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Beyond Vibe Checks: A PM&apos;s Complete Guide
-                  </a>
+            <h2 className="text-4xl font-bold mb-6">Speaking</h2>
+            <div className="space-y-6">
+              <div className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
+                <div className="flex items-start gap-3">
+                  <img 
+                    src="https://substackcdn.com/image/fetch/w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F441213db-4824-4e48-9d28-a3a18952cbfc_592x592.png" 
+                    alt="Lenny's Newsletter"
+                    className="w-10 h-10 rounded"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold">Lenny&apos;s Newsletter</h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">Deep dive on building AI products, evaluations, and the future of PM</p>
+                    <div className="space-y-1">
+                      <a 
+                        href="https://www.youtube.com/watch?v=E_rNotqs--I" 
+                        className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        → YouTube Interview
+                      </a>
+                      <a 
+                        href="https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete" 
+                        className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        → Beyond Vibe Checks: A PM&apos;s Complete Guide
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </li>
-              <li>
-                <div className="space-y-1">
-                  <p className="font-semibold">Peter Yang</p>
-                  <a 
-                    href="https://www.youtube.com/watch?v=u8lEDw7pOkE&t=2379s" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    YouTube Interview
-                  </a>
+              </div>
+
+              <div className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
+                <div className="flex items-start gap-3">
+                  <img 
+                    src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd2dbd75e-1c5a-48ab-94ef-b24caea63cdf_1024x1024.png" 
+                    alt="Peter Yang"
+                    className="w-10 h-10 rounded"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold">Peter Yang</h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">Product management strategies and AI integration in products</p>
+                    <a 
+                      href="https://www.youtube.com/watch?v=u8lEDw7pOkE&t=2379s" 
+                      className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      → YouTube Interview
+                    </a>
+                  </div>
                 </div>
-              </li>
-              <li>
-                <div className="space-y-1">
-                  <p className="font-semibold">Hamel - Evals Course</p>
-                  <a 
-                    href="https://www.youtube.com/watch?v=XueTa4qrMpg" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    YouTube Interview
-                  </a>
+              </div>
+
+              <div className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
+                <div className="flex items-start gap-3">
+                  <img 
+                    src="https://substackcdn.com/image/fetch/w_80,h_80,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F266f66c3-ca9f-4c0b-93a7-b1dc6ed89901_512x512.png" 
+                    alt="Aakash Gupta"
+                    className="w-10 h-10 rounded"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold">Aakash Gupta</h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">Product growth strategies and scaling AI products</p>
+                    <a 
+                      href="https://www.news.aakashg.com/p/aman-khan-podcast" 
+                      className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      → Product Growth Podcast
+                    </a>
+                  </div>
                 </div>
-              </li>
-              <li>
-                <div className="space-y-1">
-                  <p className="font-semibold">Deeplearning.ai</p>
-                  <a 
-                    href="https://www.deeplearning.ai/short-courses/evaluating-ai-agents/" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Evaluating AI Agents Course
-                  </a>
-                  <a 
-                    href="https://www.youtube.com/watch?v=GzxdGpFhn04" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    YouTube Interview
-                  </a>
+              </div>
+
+              <div className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
+                <div className="flex items-start gap-3">
+                  <img 
+                    src="https://yt3.googleusercontent.com/91zElxE2d20UXhsFWobw-z-L6oVIaZs88jK5ojx1LAk6V_9s4IIaCA9VqqN_Jw3WkgW_VEpN=s160-c-k-c0x00ffffff-no-rj" 
+                    alt="Hamel Husain"
+                    className="w-10 h-10 rounded"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold">Hamel Husain</h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">Building evaluation systems for AI applications</p>
+                    <a 
+                      href="https://www.youtube.com/watch?v=XueTa4qrMpg" 
+                      className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      → Evals Course Interview
+                    </a>
+                  </div>
                 </div>
-              </li>
-              <li>
-                <div className="space-y-1">
-                  <p className="font-semibold">Mind The Product</p>
-                  <a 
-                    href="https://www.mindtheproduct.com/how-to-thrive-as-an-ai-product-manager-aman-khan-director-of-product-arize-ai/" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    How to Thrive as an AI Product Manager
-                  </a>
+              </div>
+
+              <div className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
+                <div className="flex items-start gap-3">
+                  <img 
+                    src="https://www.deeplearning.ai/favicon.ico" 
+                    alt="DeepLearning.AI"
+                    className="w-10 h-10 rounded"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold">DeepLearning.AI</h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">Teaching AI agent evaluation techniques to developers</p>
+                    <div className="space-y-1">
+                      <a 
+                        href="https://www.deeplearning.ai/short-courses/evaluating-ai-agents/" 
+                        className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        → Evaluating AI Agents Course
+                      </a>
+                      <a 
+                        href="https://www.youtube.com/watch?v=GzxdGpFhn04" 
+                        className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        → Course Launch Interview
+                      </a>
+                    </div>
+                  </div>
                 </div>
-              </li>
-              <li>
-                <div className="space-y-1">
-                  <p className="font-semibold">Arize & GitHub - AI Product Manager</p>
-                  <a 
-                    href="https://www.youtube.com/watch?v=1raJngrn_Jk" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Navigating the Future of AI Product Management
-                  </a>
-                  <a 
-                    href="https://www.youtube.com/watch?v=Ms1n15uTL8o" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    AI PM Talk - Part 2
-                  </a>
-                  <a 
-                    href="https://www.youtube.com/watch?v=v0eTTn7ZPEc" 
-                    className="hover:underline text-lg block"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    AI PM Talk - Part 3
-                  </a>
+              </div>
+
+              <div className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
+                <div className="flex items-start gap-3">
+                  <div className="w-10 h-10 bg-gradient-to-br from-orange-500 to-red-500 rounded flex items-center justify-center text-white font-bold">
+                    MP
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold">Mind The Product</h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">Frameworks for thriving as an AI product manager</p>
+                    <a 
+                      href="https://www.mindtheproduct.com/how-to-thrive-as-an-ai-product-manager-aman-khan-director-of-product-arize-ai/" 
+                      className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      → How to Thrive as an AI Product Manager
+                    </a>
+                  </div>
                 </div>
-              </li>
-            </ul>
+              </div>
+
+              <div className="border-l-4 border-gray-200 dark:border-gray-700 pl-4">
+                <div className="flex items-start gap-3">
+                  <img 
+                    src="https://github.githubassets.com/favicons/favicon.svg" 
+                    alt="GitHub"
+                    className="w-10 h-10 rounded dark:bg-white p-1"
+                  />
+                  <div className="flex-1">
+                    <h3 className="text-xl font-semibold">Arize AI & GitHub</h3>
+                    <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">The future of AI product management and best practices</p>
+                    <div className="space-y-1">
+                      <a 
+                        href="https://www.youtube.com/watch?v=1raJngrn_Jk" 
+                        className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        → Navigating the Future of AI Product Management
+                      </a>
+                      <a 
+                        href="https://www.youtube.com/watch?v=Ms1n15uTL8o" 
+                        className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        → Building AI Products at Scale
+                      </a>
+                      <a 
+                        href="https://www.youtube.com/watch?v=v0eTTn7ZPEc" 
+                        className="hover:underline text-blue-600 dark:text-blue-400 text-sm block"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        → AI PM Best Practices
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </main>
 
